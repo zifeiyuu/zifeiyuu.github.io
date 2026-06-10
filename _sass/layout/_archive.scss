@@ -144,7 +144,7 @@
 
   .archive__item-note {
     margin: 0.25em 0 0.45em;
-    font-size: $type-size-6;
+    font-size: 0.95em;
   }
 
   @include breakpoint(max-width $small) {

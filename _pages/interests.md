@@ -16,6 +16,5 @@ author_profile: true
     <img src="/images/interests/3.jpeg" alt="Football interest photo" style="width:100%;height:150px;object-fit:cover;border-radius:6px;" />
     <img src="/images/interests/1.jpg" alt="Football interest photo" style="width:100%;height:150px;object-fit:cover;border-radius:6px;" />
     <img src="/images/interests/2.jpg" alt="Football interest photo" style="width:100%;height:150px;object-fit:cover;border-radius:6px;" />
-    <img src="/images/interests/5.jpg" alt="Football interest photo" style="width:100%;height:150px;object-fit:cover;border-radius:6px;" />
   </div>
 </section>

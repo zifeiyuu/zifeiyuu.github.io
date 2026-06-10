@@ -9,7 +9,7 @@ author_profile: true
   <section class="experience-item">
     <div>
       <h3>TikTok</h3>
-      <p class="experience-role">Machine Learning Engineer, Recommendation-Search Group <span>May 2026 - Present</span></p>
+      <p class="experience-role">Machine Learning Engineer (Recommendation-Search Group) <span>May 2026 - Present</span></p>
       <p>Working on search recommendation and cross-domain user interest modeling for post-search video recommendation.</p>
     </div>
   </section>
@@ -17,8 +17,8 @@ author_profile: true
   <section class="experience-item">
     <div>
       <h3>Microsoft</h3>
-      <p class="experience-role">Machine Learning Engineer Intern, Bing Ads Group <span>May 2025 - Aug 2025</span></p>
-      <p>Built a Graph-RAG long-term memory system for Bing Search with hierarchical memory graphs and global retrieval.</p>
+      <p class="experience-role">Machine Learning Engineer Intern (Bing Ads Group) <span>May 2025 - Aug 2025</span></p>
+      <p>Built Graph-RAG long-term memory system for Bing Search with hierarchical memory graphs and global retrieval.</p>
     </div>
   </section>
 

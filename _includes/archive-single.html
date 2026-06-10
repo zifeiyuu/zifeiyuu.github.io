@@ -5,6 +5,9 @@
 {% else %}
   {% assign teaser = site.teaser %}
 {% endif %}
+{% if post.header.teaser2 %}
+  {% capture teaser2 %}{{ post.header.teaser2 }}{% endcapture %}
+{% endif %}
 
 {% if post.id %}
   {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
@@ -23,6 +26,15 @@
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
           alt="">
+        {% if teaser2 %}
+          <img class="archive__item-teaser-2" src=
+            {% if teaser2 contains "://" %}
+              "{{ teaser2 }}"
+            {% else %}
+              "{{ teaser2 | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="">
+        {% endif %}
       </div>
     {% endif %}
 

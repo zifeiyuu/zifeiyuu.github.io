@@ -61,10 +61,19 @@ redirect_from:
 
 ---
 
-欢迎来到我的个人网站。这里收录我的论文、工作经历与个人兴趣三部分内容，其他页面已移除以保持简洁。
+欢迎来到我的个人网站。这里只保留论文（Publications）、工作经历（Experience / CV）与个人兴趣（Interests）。
+
+教育背景：
+
+- M.S. in Electrical & Computer Engineering, Georgia Tech
+- B.S. in Electrical Engineering, Zhejiang University & University of Illinois at Urbana–Champaign
+
+研究与兴趣方向：机器学习、推荐系统、LLM 记忆（memory）、机器人学与 3D 视觉。
+
+导航：
 
 - 论文： [Publications](/publications/)
 - 工作经历（简历）： [Experience](/cv/)
 - 个人兴趣： [Interests](/interests/)
 
-简介：我从事软件开发与研究，平时关注机器学习、系统设计与摄影。想了解更多请点击上方菜单或上述链接。
+想让我调整用词或语言风格（中文/英文），告诉我即可。

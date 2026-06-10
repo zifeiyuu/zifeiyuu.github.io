@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+Download current CV (PDF): [Ziyu Xiao — CV](/files/ZiyuXiao-CV.pdf)
+
+
 Education
 ======
 * Ph.D in Version Control Theory, GitHub University, 2018 (expected)

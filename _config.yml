@@ -23,7 +23,7 @@ repository               : "zifeiyuu/zifeiyuu.github.io"
 author:
   avatar           : "profile.jpg"
   name             : "Ziyu Xiao"
-  bio              : "M.S. student in Electrical & Computer Engineering at Georgia Tech.<br>B.S. in Electrical Engineering at Zhejiang University & University of Illinois at Urbana-Champaign.<br>Interested in machine learning, recommendation systems, LLM memory, robotics, and 3D vision."
+  bio              : "M.S. student in Electrical & Computer Engineering at Georgia Tech.<br><br>B.S. in Electrical Engineering at Zhejiang University & University of Illinois at Urbana-Champaign.<br><br>Interested in machine learning, recommendation systems, LLM memory, and robotics."
   location         : "Atlanta, GA"
   uri              : "https://zifeiyuu.github.io"
   email            : "simon1121093925@gmail.com"

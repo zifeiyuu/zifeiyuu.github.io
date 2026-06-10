@@ -129,8 +129,8 @@
 
   .experience-item {
     display: grid;
-    grid-template-columns: 54px 1fr;
-    gap: 0.2em 0.9em;
+    grid-template-columns: 36px 1fr;
+    gap: 0.2em 0.75em;
     align-items: start;
     margin-bottom: 1.4em;
     padding-bottom: 1.4em;
@@ -142,10 +142,10 @@
   }
 
   .experience-logo {
-    width: 44px;
-    height: 44px;
+    width: 28px;
+    height: 28px;
     object-fit: contain;
-    border-radius: 6px;
+    border-radius: 4px;
   }
 
   .experience-item h3 {

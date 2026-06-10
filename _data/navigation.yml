@@ -10,6 +10,8 @@
 main:
   - title: "Publications"
     url: /publications/
+  - title: "CV"
+    url: /files/ZiyuXiao-CV.pdf
 
   - title: "Experience"
     url: /cv/

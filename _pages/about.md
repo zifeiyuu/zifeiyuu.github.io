@@ -70,10 +70,11 @@ redirect_from:
 
 研究与兴趣方向：机器学习、推荐系统、LLM 记忆（memory）、机器人学与 3D 视觉。
 
-导航：
+permalink: /
+title: "主页"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 
-- 论文： [Publications](/publications/)
-- 工作经历（简历）： [Experience](/cv/)
-- 个人兴趣： [Interests](/interests/)
-
-想让我调整用词或语言风格（中文/英文），告诉我即可。
+---

@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "HomePage"
 author_profile: true
 redirect_from: 
   - /about/
@@ -30,7 +30,7 @@ Hangzhou, China
 
 ## Industry Experience
 
-TikTok — Machine Learning Engineer Intern, Recommendation-Search Group  
+TikTok — Machine Learning Engineer, Recommendation Data-Search Group  
 May 2025 – Present
 
 Microsoft — Machine Learning Engineer Intern, Bing Ads Group  

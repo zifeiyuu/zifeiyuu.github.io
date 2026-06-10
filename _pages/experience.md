@@ -1,0 +1,35 @@
+---
+layout: archive
+title: "Experience"
+permalink: /experience/
+author_profile: true
+---
+
+<div class="experience-list">
+  <section class="experience-item">
+    <img src="/images/experience/tiktok.webp" alt="TikTok logo" class="experience-logo" />
+    <div>
+      <h3>TikTok</h3>
+      <p class="experience-role">Machine Learning Engineer, Recommendation-Search Group <span>May 2026 - Present</span></p>
+      <p>Working on search recommendation and cross-domain user interest modeling for post-search video recommendation.</p>
+    </div>
+  </section>
+
+  <section class="experience-item">
+    <img src="/images/experience/microsoft.png" alt="Microsoft logo" class="experience-logo" />
+    <div>
+      <h3>Microsoft</h3>
+      <p class="experience-role">Machine Learning Engineer Intern, Bing Ads Group <span>May 2025 - Aug 2025</span></p>
+      <p>Built a Graph-RAG long-term memory system for Bing Search with hierarchical memory graphs and global retrieval.</p>
+    </div>
+  </section>
+
+  <section class="experience-item">
+    <img src="/images/experience/xiaomi.png" alt="Xiaomi logo" class="experience-logo" />
+    <div>
+      <h3>Xiaomi</h3>
+      <p class="experience-role">Autonomous Driving Machine Learning Engineer Intern <span>Jan 2025 - May 2025</span></p>
+      <p>Developed street-view novel view synthesis methods for autonomous driving using 3D point clouds and diffusion models.</p>
+    </div>
+  </section>
+</div>

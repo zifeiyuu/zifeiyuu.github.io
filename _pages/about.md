@@ -13,17 +13,22 @@ At Georgia Tech, I work with Prof. [Harish Ravichandar](https://harishravichanda
 
 ## Education
 
-Georgia Institute of Technology  
-M.S. in Electrical & Computer Engineering  
-Atlanta, GA  
-2023 – 2026
+<div class="education-list">
+  <div class="education-item">
+    <strong>Georgia Institute of Technology</strong>
+    <span>M.S. in Electrical & Computer Engineering</span>
+    <span>Atlanta, GA | 2023 - 2026</span>
+  </div>
 
-University of Illinois Urbana-Champaign  
-B.S. in Electrical Engineering  
-Champaign, IL  
-2019 – 2023
+  <div class="education-item">
+    <strong>University of Illinois Urbana-Champaign</strong>
+    <span>B.S. in Electrical Engineering</span>
+    <span>Champaign, IL | 2019 - 2023</span>
+  </div>
 
-Zhejiang University  
-B.E. in Electrical Engineering and Automation  
-Hangzhou, China  
-2019 – 2023
+  <div class="education-item">
+    <strong>Zhejiang University</strong>
+    <span>B.E. in Electrical Engineering and Automation</span>
+    <span>Hangzhou, China | 2019 - 2023</span>
+  </div>
+</div>

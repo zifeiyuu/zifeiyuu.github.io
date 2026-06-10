@@ -106,6 +106,68 @@
     padding-left: 1.25rem;
   }
 
+  .education-list {
+    margin-top: 1em;
+  }
+
+  .education-item {
+    margin-bottom: 1em;
+  }
+
+  .education-item strong,
+  .education-item span {
+    display: block;
+  }
+
+  .education-item strong {
+    margin-bottom: 0.15em;
+  }
+
+  .experience-list {
+    margin-top: 1.5em;
+  }
+
+  .experience-item {
+    display: grid;
+    grid-template-columns: 54px 1fr;
+    gap: 0.2em 0.9em;
+    align-items: start;
+    margin-bottom: 1.4em;
+    padding-bottom: 1.4em;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  .experience-item:last-child {
+    border-bottom: 0;
+  }
+
+  .experience-logo {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    border-radius: 6px;
+  }
+
+  .experience-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.15em;
+  }
+
+  .experience-role {
+    margin-bottom: 0.35em;
+    font-weight: 600;
+  }
+
+  .experience-role span {
+    display: block;
+    color: var(--global-text-color-light);
+    font-weight: 400;
+  }
+
+  .experience-item p:last-child {
+    margin-bottom: 0;
+  }
+
 }
 
 .page__hero {

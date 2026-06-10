@@ -7,7 +7,6 @@ author_profile: true
 
 <div class="experience-list">
   <section class="experience-item">
-    <img src="/images/experience/tiktok.webp" alt="TikTok logo" class="experience-logo" />
     <div>
       <h3>TikTok</h3>
       <p class="experience-role">Machine Learning Engineer, Recommendation-Search Group <span>May 2026 - Present</span></p>
@@ -16,7 +15,6 @@ author_profile: true
   </section>
 
   <section class="experience-item">
-    <img src="/images/experience/microsoft.png" alt="Microsoft logo" class="experience-logo" />
     <div>
       <h3>Microsoft</h3>
       <p class="experience-role">Machine Learning Engineer Intern, Bing Ads Group <span>May 2025 - Aug 2025</span></p>
@@ -25,7 +23,6 @@ author_profile: true
   </section>
 
   <section class="experience-item">
-    <img src="/images/experience/xiaomi.png" alt="Xiaomi logo" class="experience-logo" />
     <div>
       <h3>Xiaomi</h3>
       <p class="experience-role">Autonomous Driving Machine Learning Engineer Intern <span>Jan 2025 - May 2025</span></p>

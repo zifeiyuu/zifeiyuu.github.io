@@ -4,7 +4,7 @@ title: "Interests"
 permalink: /interests/
 author_profile: true
 ---
-
+<h1>Interests</h1>
 <p class="interest-intro">A few things I enjoy outside research and engineering.</p>
 
 <section class="interest-section">

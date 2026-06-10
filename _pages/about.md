@@ -52,5 +52,19 @@ Example: editing a Markdown file for a talk
 ![Editing a Markdown file for a talk](/images/editing-talk.png)
 
 For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+permalink: /
+title: "主页"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+
+---
+
+欢迎来到我的个人网站。这里收录我的论文、工作经历与个人兴趣三部分内容，其他页面已移除以保持简洁。
+
+- 论文： [Publications](/publications/)
+- 工作经历（简历）： [Experience](/cv/)
+- 个人兴趣： [Interests](/interests/)
+
+简介：我从事软件开发与研究，平时关注机器学习、系统设计与摄影。想了解更多请点击上方菜单或上述链接。

@@ -21,12 +21,10 @@ repository               : "zifeiyuu/zifeiyuu.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "profile.png"
-  name             : "Ziyu (Simon) Xiao"
-  pronouns         :
-  bio              : "M.S. student in Electrical & Computer Engineering at Georgia Tech. Interested in machine learning, recommendation systems, LLM memory, robotics, and 3D vision."
+  avatar           : "profile.jpg"
+  name             : "Ziyu Xiao"
+  bio              : "M.S. student in Electrical & Computer Engineering at Georgia Tech. \n B.S in Electrical Engineering at Zhejiang University & University of Illinois at Urbana-Champaign.\n Interested in machine learning, recommendation systems, LLM memory, robotics, and 3D vision."
   location         : "Atlanta, GA"
-  employer         : "Georgia Institute of Technology"
   uri              : "https://zifeiyuu.github.io"
   email            : "simon1121093925@gmail.com"
 
@@ -36,11 +34,7 @@ author:
   linkedin         : "https://www.linkedin.com/in/ziyu-xiao-2a25a828a/"
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+publication_category: 
   conferences:
     title: 'Conference Papers'
 

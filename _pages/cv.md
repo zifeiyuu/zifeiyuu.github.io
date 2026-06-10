@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-Download current CV (PDF): [Ziyu Xiao - CV](/files/ZiyuXiao-CV2.pdf)
+Download current CV (PDF): [Ziyu Xiao - CV](/files/ZiyuXiao-CV3.pdf

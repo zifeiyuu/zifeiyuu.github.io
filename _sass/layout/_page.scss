@@ -5,7 +5,7 @@
 #main {
   @include container;
   @include clearfix;
-  margin-top: 2em;
+  margin-top: 1.4em;
   padding-left: 1em;
   padding-right: 1em;
   animation: intro 0.3s both;
@@ -129,8 +129,8 @@
 
   .experience-item {
     display: grid;
-    grid-template-columns: 36px 1fr;
-    gap: 0.2em 0.75em;
+    grid-template-columns: 22px 1fr;
+    gap: 0.15em 0.55em;
     align-items: start;
     margin-bottom: 1.4em;
     padding-bottom: 1.4em;
@@ -142,10 +142,39 @@
   }
 
   .experience-logo {
-    width: 28px;
-    height: 28px;
+    width: 16px;
+    height: 16px;
     object-fit: contain;
-    border-radius: 4px;
+    border-radius: 3px;
+    margin-top: 0.25em;
+  }
+
+  .interest-intro {
+    margin-bottom: 1.25em;
+    color: var(--global-text-color-light);
+  }
+
+  .interest-section {
+    margin-top: 1.2em;
+  }
+
+  .interest-section h2 {
+    margin-top: 0;
+  }
+
+  .interest-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 0.75em;
+    margin-top: 1em;
+  }
+
+  .interest-gallery img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: 6px;
   }
 
   .experience-item h3 {

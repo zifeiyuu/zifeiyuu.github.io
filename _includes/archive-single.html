@@ -22,7 +22,7 @@
 {% assign show_teaser = false %}
 {% if teaser and include.type == "grid" %}
   {% assign show_teaser = true %}
-{% elsif teaser and include.type == "publication" %}
+{% elsif teaser and include.type == "publication_teaser" %}
   {% assign show_teaser = true %}
 {% endif %}
 
@@ -50,7 +50,7 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
+      {% if post.link and post.link != "" %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
@@ -78,6 +78,27 @@
     <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
     {% elsif post.excerpt and site.read_more == 'enabled' %}
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %}
+
+    {% if include.type == "publication" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+        {% if teaser2 %}
+          <img class="archive__item-teaser-2" src=
+            {% if teaser2 contains "://" %}
+              "{{ teaser2 }}"
+            {% else %}
+              "{{ teaser2 | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="">
+        {% endif %}
+      </div>
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
